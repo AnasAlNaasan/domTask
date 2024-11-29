@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-task{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 20px auto;
+    align-items: center;
+    background: #6c757d;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.delete{
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    background: #17a2b8;
+    color: #fff;
+}
