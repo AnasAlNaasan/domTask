@@ -9,6 +9,20 @@ function getData() {
     containerTask.className = 'container-task';
     Container.appendChild(containerTask);
 
+    if(containerTask.onclick = true){
+        clickTask();
+    }else{
+        return false
+    }
+
+    function clickTask (){
+        containerTask.onclick = function(){
+            containerTask.style.background = '#6c757d67';
+            Delete.style.background = '#17a3b867';
+        }
+    }
+
+
     // p
     let task = document.createElement('p');
     task.id = 'task';
